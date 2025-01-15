@@ -178,3 +178,29 @@ main section {
     justify-content: space-between;
     gap: 24px;
 }
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+    background-color:bisque;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description, .experience-sub-title {
+    color: #757575;
+}
+
+.resume hr {
+    margin: 30px 0px;
+}
+
+.resume-download {
+    margin-top: 30px;
+}
