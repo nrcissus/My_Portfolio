@@ -36,6 +36,8 @@
     color: white;
     padding: 18px 35px;
     border-radius: 5px;
+    margin-top: 30px;
+    margin-right: 20px;
 }
 
 .section-title {
@@ -100,6 +102,7 @@ nav ul a {
 
 .banner-content {
     max-width: 585px;
+    margin: none;
 }
 
 .banner-greetings {
@@ -110,6 +113,8 @@ nav ul a {
 .banner-title {
     font-size: 85px;
     font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 .banner-profile-pic {
@@ -131,7 +136,7 @@ main section {
 
 /* About Styles */
 .about {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
@@ -182,7 +187,7 @@ main section {
 .resume-container {
     display: flex;
     gap: 24px;
-    background-color:bisque;
+    /* background-color:bisque; */
     border-radius: 15px;
     padding: 50px;
 }
@@ -203,4 +208,31 @@ main section {
 
 .resume-download {
     margin-top: 30px;
+}
+
+.footer-column {
+    display: flex;
+    padding: 200px 100px;
+    gap: 100px;
+}
+
+
+/* Footer Section */
+.section-p {
+    font-size: 16px;
+}
+
+.MessageMe {
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
